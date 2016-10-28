@@ -1,0 +1,59 @@
+body,ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: url(../images/qt.jpg) center;
+	background-size: 100%;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+body{
+	padding:0;
+	margin:0;
+}
+.scene{
+	width:1000px;
+	height:535px;
+	
+	background: url(../images/bj.jpg);
+	background-size: 100%; 
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	position:relative;
+}
+.scene .pai{
+	width:120px;
+	height:168px;
+	background-size:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	opacity: 0;
+}
+.scene .move-left,.move-right{
+	width:100px;
+	height:30px;
+	background: #eee;
+	border-radius: 5px;
+	cursor: pointer;
+	position:absolute;
+	bottom:60px;
+	left:0;
+	right:0;
+	margin:0 auto;
+	font-size: 24px;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 30px;
+}
+.scene .move-left{
+	bottom:20px;
+}
